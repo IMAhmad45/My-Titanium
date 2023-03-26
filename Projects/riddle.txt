@@ -1,0 +1,11 @@
+print("Welcome to the riddle game screen")
+riddle="what has a head and tail but no body? "
+answer="coin"
+while True:
+    print(riddle)
+    guess=input("guess the riddle: ")
+    if answer==guess:
+        print("Correct! The answer is ", answer)
+        break
+    else:
+        print("Sory, Try again")
