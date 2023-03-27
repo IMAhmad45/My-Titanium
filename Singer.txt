@@ -1,0 +1,12 @@
+print("Let us guess the singer")
+singer="Guess the name of the singer"
+answer="Lata"
+while True:
+    print("Song=Doori rahay nah koi, aaj itnay qareeb aao")
+    print(singer)
+    variable=input("Type the name of the singer:  ")
+    if variable==answer:
+        print("Correct! Singer name is" , answer)
+        break
+    else:
+        print("incorrect answer")
