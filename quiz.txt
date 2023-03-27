@@ -1,0 +1,45 @@
+print("Welcome to the general knowledge quiz")
+choice=input("Do you want to start the quiz ? ")
+if choice.lower()!="yes":
+    quit()
+else:
+    print("Ok Great!, Let's Start...")
+    result=0
+answer=input("Which is the second largest city in Pakistan ? ")
+if answer.lower()==("lahore"):
+    print("Correct")
+    result+=2
+else:
+    print("Incorrect")
+answer=input("Which city is called Menchester Of Pakistan  ? ")
+if answer.lower()==("faisalabad"):
+    print("Correct")
+    result+=2
+else:
+    print("Incorrect")
+answer=input("Which city is known as city of flowers in Pakistan ? ")
+if answer.lower()==("peshawar"):
+    print("Correct")
+    result+=2
+else:
+    print("Incorrect")
+answer=input("Name the textile city in Pakistan ? ")
+if answer.lower()==("faisalabad"):
+    print("Correct")
+    result+=2
+else:
+    print("Incorrect")
+answer=input("Which city is called city of gardens in Pakistan ? ")
+if answer.lower()==("lahore"):
+    print("Correct")
+    result+=2
+else:
+    print("Incorrect")
+answer=input("Which is the longest river in Pakistan  ? ")
+if answer.lower()==("indus river"):
+    print("Correct")
+    result+=2
+else:
+    print("Incorrect")
+print("You got "+str(result)+ " marks")
+print(" You got "+ str((result/12)*100) + "percent marks")
